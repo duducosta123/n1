@@ -1,0 +1,108 @@
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <title>Linguagem de Programação</title>
+</head>
+
+<body style="background:#2E2E2E;">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Pagina Inicial</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Mídia </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Noticias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Suporte</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div class="container" style="color:#fff;">
+      <div class="row">
+        <img src="img/banner.jpg" style="width:99%; padding:center; border-radius:20px; padding-top:10px;">
+        <section class="container">
+          <div class="row">
+            <div class="col-md-12"><h2 style="color:red">Linguagem de programação</h2> </div>
+            <div class="col-md-6">
+              <h1 style="font-size:25px;">linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador, ou usado como script interpretado - que informará instruções de processamento ao computador. </h1>
+            </div>
+            <div class="col-md-6">
+              <img src="img/esquerda.jpg" style="width:100%; padding:right; border-left-width:2px ;"> </div>
+  </header>
+  <br>
+ <header>
+    <div class="container" style="color:#fff;">
+      <div class="row">
+        
+        <section class="container">
+          <div class="row">
+      
+			 <div class="col-md-6">
+              <img src="img/direita.jpeg" style="width:100%; padding:right; border-left-width:2px ;" >
+			  </div>
+            <div class="col-md-6">
+              <h1 style="font-size:25px; margin-top:50px;">A programação é exatamente quem possibilita a existência dos softwares e, por consequência, a utilização mais prática dos hardwares. Para poder dar origem aos softwares, a programação ganha uma linguagem própria que compõe códigos escritos por programadores. </h1>
+            </div>
+  </header>
+  <br>    
+   <header>
+    <div class="container" style="color:#fff;">
+    
+        <section class="container">
+		  <div class="row">
+            <div class="col-md-6">
+			
+              <h1 style="font-size:25px;">Linguagens de programação também tornam os programas menos dependentes de computadores ou ambientes computacionais específicos (propriedade chamada de portabilidade). Isto acontece porque programas escritos em linguagens de programação são traduzidos para o código de máquina do computador no qual será executado em vez de ser diretamente executado. Uma meta ambiciosa do Fortran, uma das primeiras linguagens de programação, era esta independência da máquina onde seria executada.
+			</div>
+            <div class="col-md-6">
+           <img src="img/final.jpg" style="width:100%; padding:right; border-left-width:2px ;"> </div>
+  </header>
+<hr>
+
+  <footer style="clear:both;">
+  
+    <form style="margin-left:10px; margin-right:auto;" >
+	
+      <hr>
+      <label for="email" style="color:#fff; font-size:20px;">Email</label>
+      <br>
+      <input type="email" name="email" id="email">
+      <br>
+      <label for="senha" style="color:#fff; font-size:20px;">Senha</label>
+      <br>
+      <input type="senha" name="senha" id="senha">
+      <hr>
+      <button type="submit" onclick="alerta()" class="btn btn-warning">Enviar</button>
+    </form>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script>
+  function alerta() {
+    var dados = new Object()
+    dados.email = document.getElementById("email").value
+    dados.senha = document.getElementById("senha").value
+    alert("Olá \nEmail: " + dados.email + "\nSenha:" + dados.senha)
+  }
+</script>
